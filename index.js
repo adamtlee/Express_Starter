@@ -11,7 +11,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
  
 app.get('/', function(req, res) {
     res.render('home');
-    res.
 });
 app.get('/about', function(req, res) {
     res.render('about');
